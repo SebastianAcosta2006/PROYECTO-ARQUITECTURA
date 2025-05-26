@@ -12,7 +12,7 @@ PROYECTO FINAL CODES ARQUITECTURA/
 ├── CPU/
 │   ├── isa.py                       # Definición de la ISA (conjunto de instrucciones)
 │   ├── pipeline.py                  # Lógica del pipeline de instrucciones
-│   └── __init__.py.txt              # Archivo de inicialización (renombrar si necesario)
+│   └── __init__.py.txt              # Archivo de inicialización 
 │
 ├── io/
 │   ├── dispositivo.py               # Simulación de dispositivos de entrada/salida
