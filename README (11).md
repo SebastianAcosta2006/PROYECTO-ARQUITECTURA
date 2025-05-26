@@ -1,8 +1,8 @@
-# 🧠 PROYECTO FINAL – SIMULADOR DE ARQUITECTURA DE COMPUTADORES
+# PROYECTO FINAL – SIMULADOR DE ARQUITECTURA DE COMPUTADORES
 
 Este proyecto es un simulador educativo de arquitectura de computadores implementado en Python. Modela componentes clave como la CPU (con pipeline), la memoria caché, dispositivos de entrada/salida y maneja interrupciones.
 
-## 📁 ESTRUCTURA DEL PROYECTO
+##  ESTRUCTURA DEL PROYECTO
 
 ```
 PROYECTO FINAL CODES ARQUITECTURA/
@@ -25,12 +25,12 @@ PROYECTO FINAL CODES ARQUITECTURA/
     └── benchmarks.py               # Pruebas de rendimiento del simulador
 ```
 
-## 🛠️ REQUISITOS
+## REQUISITOS
 
 - Python 3.10 o superior (idealmente el mismo usado durante el desarrollo, ya que hay `.pyc` de CPython 3.13)
-- No se requieren librerías externas (basado en el contenido observado)
+- No se requieren librerías externas
 
-## ▶️ INSTRUCCIONES DE EJECUCIÓN
+INSTRUCCIONES DE EJECUCIÓN
 
 1. **Renombrar `__init__.py.txt`**  
    Asegúrate de que el archivo `CPU/__init__.py.txt` se renombre a `__init__.py`.
@@ -52,8 +52,6 @@ PROYECTO FINAL CODES ARQUITECTURA/
    ```bash
    python Test/benchmarks.py
    ```
-
-## 💬 COMENTARIOS
 
 - La lógica del pipeline y el comportamiento de la caché están modularizados para facilitar su modificación y pruebas.
 - Los `.pyc` pueden ser eliminados si se quiere limpiar el proyecto.
